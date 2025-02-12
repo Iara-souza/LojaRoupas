@@ -30,6 +30,6 @@ public class FileRepository {
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-        return vendas;
+        return vendas;
     }
 }

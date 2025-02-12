@@ -11,5 +11,6 @@ public class Cliente implements Serializable {
     }
 
     public String getNome() { return nome; }
-    public String getEmail() { return email; }
+    public String getEmail() { return email; }
+    
 }

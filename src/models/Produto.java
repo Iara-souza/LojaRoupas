@@ -4,8 +4,8 @@ import java.io.Serializable;
 public class Produto implements Serializable {
     private String nome;
     private double preco;
-    private int estoque;
-    private int estoqueMinimo;
+    private int estoque = 0;
+    private int estoqueMinimo = 0;
 
     public Produto(String nome, double preco, int estoque, int estoqueMinimo) {
         this.nome = nome;
@@ -23,7 +23,9 @@ public class Produto implements Serializable {
         this.estoque -= quantidade;
     }
 
+  
     public boolean precisaRepor() {
-        return estoque < estoqueMinimo;
+        boolean retorno = estoque < estoqueMinimo;
+        return retorno;
     }
 }

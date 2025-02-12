@@ -18,5 +18,5 @@ public class Venda implements Serializable {
     public Cliente getCliente() { return cliente; }
     public Produto getProduto() { return produto; }
     public int getQuantidade() { return quantidade; }
-    public Date getData() { return data; }
+    public Date getData() { return data; }
 }

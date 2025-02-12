@@ -1,7 +1,8 @@
 package services;
+import java.util.List;
+
 import models.Venda;
 import repository.FileRepository;
-import java.util.List;
 
 public class VendaService {
     public static void registrarVenda(Venda venda) {
